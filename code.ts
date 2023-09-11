@@ -197,7 +197,6 @@ function FixNaming(name: string) {
   return CamelCaseToKebabCase(
     name
       .trim()
-      .replace(/([\/])/g, "--") // Figma uses / to separate different substyles, change this to BEM modifier
       .replace(/([\ ])/g, "-") // Remove any spaces
   ).toLowerCase();
 }
