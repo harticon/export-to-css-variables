@@ -1,6 +1,6 @@
 {
-  "name": "Export styles to CSS variables",
-  "id": "816737626312049592",
+  "name": "Export styles to CSS variables (Icon)",
+  "id": "1111",
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html",
